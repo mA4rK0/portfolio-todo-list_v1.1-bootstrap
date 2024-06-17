@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     lI.classList.add("rounded");
     lI.classList.add("mx-2");
     lI.classList.add("my-2");
+    lI.classList.add("p-1");
 
     lI.innerHTML = `${toDo} <button class="rounded btn btn-outline-danger">X</button>`;
     mainList.appendChild(lI);
@@ -79,6 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
       lI.classList.add("rounded");
       lI.classList.add("mx-2");
       lI.classList.add("my-2");
+      lI.classList.add("p-1");
 
       lI.innerHTML = `${todo} <button class="rounded btn btn-outline-danger">X</button>`;
       mainList.appendChild(lI);
