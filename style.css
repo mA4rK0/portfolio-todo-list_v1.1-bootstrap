@@ -1,3 +1,32 @@
+body {
+  background-color: #f2ce3f;
+}
+
+li {
+  background-color: aliceblue;
+}
+
 #todo-list {
   list-style-type: none;
+}
+
+@media (max-width: 431px) {
+  h1 {
+    margin-left: 32%;
+    padding-top: 3%;
+  }
+}
+
+@media (min-width: 541px) {
+  h1 {
+    margin-left: 40%;
+    padding-top: 3%;
+  }
+}
+
+@media (min-width: 1281px) {
+  h1 {
+    margin-left: 44%;
+    padding-top: 1%;
+  }
 }
