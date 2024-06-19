@@ -20,12 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (toDo === "") return;
 
     const lI = document.createElement("li");
-    lI.classList.add("border");
-    lI.classList.add("border-4");
-    lI.classList.add("rounded");
-    lI.classList.add("mx-2");
-    lI.classList.add("my-2");
-    lI.classList.add("p-1");
+    lI.classList.add("border", "border-4", "rounded", "mx-2", "my-2", "p-1");
 
     lI.innerHTML = `${toDo} <button class="rounded btn btn-outline-danger">X</button>`;
     mainList.appendChild(lI);
@@ -75,12 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const todos = getLocalArray();
     todos.forEach((todo) => {
       let lI = document.createElement("li");
-      lI.classList.add("border");
-      lI.classList.add("border-4");
-      lI.classList.add("rounded");
-      lI.classList.add("mx-2");
-      lI.classList.add("my-2");
-      lI.classList.add("p-1");
+      lI.classList.add("border", "border-4", "rounded", "mx-2", "my-2", "p-1");
 
       lI.innerHTML = `${todo} <button class="rounded btn btn-outline-danger">X</button>`;
       mainList.appendChild(lI);
